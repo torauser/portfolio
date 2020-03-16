@@ -84,7 +84,6 @@ nav {
     height: 1px;
     background-color: #000000;
     opacity: 0;
-    transition: opacity 0.2s linear;
 }
 
 .nav-menu__item:hover::after {
@@ -125,21 +124,20 @@ nav {
 
 .portfolio__item:hover .item-title {
     opacity: 1;
-    transition: opacity .2s linear;
+    transition: opacity .4s linear;
 }
 
 .portfolio__item:hover .item-img {
-    /* opacity: 0.4; */
-    transition: opacity, border, transform 0.2s linear;
-    transform: translate3d(-4px, -4px, 0);
-    border-radius: 3px;
-    box-shadow: 0px 0px 5px 0px rgb(248, 240, 224);
+    opacity: 0.6;
+    transition: opacity 0.4s linear;
+    /* transform: translate3d(-4px, -4px, 0); */
+    /* border-radius: 3px; */
+    /* box-shadow: 0px 0px 5px 0px rgb(248, 240, 224); */
 }
 
 /* statistics */
 
 .stats {
-    background-color: #b5eae0;
     box-shadow: 0px 0px 5px 0px rgb(177, 185, 192);
     animation: bg-animation 12s infinite alternate;
     background-image: var(--gradient);
